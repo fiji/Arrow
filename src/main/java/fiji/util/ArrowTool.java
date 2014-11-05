@@ -2,19 +2,15 @@ package fiji.util;
 
 import fiji.tool.AbstractTool;
 import fiji.tool.ToolWithOptions;
-
 import ij.IJ;
 import ij.ImagePlus;
 import ij.WindowManager;
-
 import ij.gui.ImageCanvas;
 import ij.gui.ImageWindow;
 import ij.gui.Line;
 import ij.gui.Roi;
 import ij.gui.ShapeRoi;
-
 import ij.plugin.frame.Recorder;
-
 import ij.process.ImageProcessor;
 
 import java.awt.BasicStroke;
@@ -23,7 +19,6 @@ import java.awt.Graphics;
 import java.awt.Graphics2D;
 import java.awt.RenderingHints;
 import java.awt.Shape;
-
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
@@ -31,7 +26,6 @@ import java.awt.event.MouseListener;
 import java.awt.event.MouseMotionListener;
 import java.awt.event.MouseWheelEvent;
 import java.awt.event.MouseWheelListener;
-
 import java.awt.geom.Point2D;
 
 import javax.swing.SwingUtilities;
