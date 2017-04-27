@@ -50,9 +50,10 @@ import javax.swing.SwingUtilities;
  * Double-click on the toolbar icon to display an option panel, on which the arrow head length, the
  * line thickness and the arrow style can be changed.
  * <p>
- * For backward compatibility  with the previous <code>Arrow_.java</code>, if there is a {@link Line} ROI
+ * For backward compatibility  with the
+ * <a href="https://imagej.net/plugins/download/Arrow_.java">previous
+ * <code>Arrow_.java</code></a>, if there is a {@link Line} ROI
  * on the image when this plugin is called, we  draw an arrow non-interactively.
- * See {@link http://rsb.info.nih.gov/ij/plugins/download/Arrow_.java}.
  *
  * <h3>Code and classes</h3>
  *
@@ -68,9 +69,8 @@ import javax.swing.SwingUtilities;
  * <li> {@link ArrowOptionPanel} is the option panel displayed when the toolbar icon is double-clicked.
  * </ul>
  *
- *
- * @author Jean-Yves Tinevez & Johannes Schindelin
- * Nov-Dec 2009
+ * @author Jean-Yves Tinevez
+ * @author Johannes Schindelin
  * @version 1.0 - 3 Dec 2009
  */
 public class ArrowTool extends AbstractTool implements ActionListener,
